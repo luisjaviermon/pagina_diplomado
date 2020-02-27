@@ -4,115 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:500&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/onepage-scroll.css">
-    <link rel="stylesheet" href="css/estilos.css">
     <title>Diplomado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/css/estilos.css">
+    <link rel="stylesheet" href="css/css/aos.css">
 </head>
+
 <body>
-
-    <div class="main">
-
-        <section class="portada">
-
-            <div class="flex portada__instituciones">
-                
-                <div class="flex portada__unam">
-
-                    <img src="img/UNAM_blanco-1.png" class="portada__escudos">
-                    
-                    <div class="letras portada__letras-unam">
-                        Universidad Nacional <br> Autónoma de México
-                    </div>
-
-                </div>
-
-                <div class="flex portada__fi">
-                    
-                    <img src="img/Logo _INGENIERIA_Blanco.svg" class="portada__escudos">
-                    
-                    <div class="flex letras portada__letras-division-fi">
-
-                        <div class="portada__letras-fi">
-                            Facultad de Ingeniería
-                        </div> 
-
-                        <div class="portada__letras-division">
-                            División de Ingeniería Eléctrica
-                        </div> 
-
-                    </div>
-
-                </div>
-
+    <div class="flex encabezado">
+        <div class="flex letras encabezado__unam">
+            <img class="encabezado__escudo-unam" src="img/UNAM_blanco-1.png">
+            Universidad Nacional <br> 
+            Autónoma de México
+        </div>
+        <div class="flex letras encabezado__fi">
+            <img class="encabezado__escudo-fi" src="img/Logo _INGENIERIA_Blanco.svg">
+            <div class="flex encabezado__letras-fi">
+                Facultad de Ingeniería
+                <span class="encabezado__letras-division">División de Ingeniería Eléctrica</span>
             </div>
-
-            <div class="flex portada__presentacion-diplomado">
-
-                <div class="flex letras portada__titulo-diplomado">
-
-                    <div class="portada__texto-diplomado">
-                        Diplomado
-                    </div>
-
-                    <div class="portada__nombre-diplomado">
-                        Administración, clusterización <br>
-                        y analítica de bases de datos
-                    </div>
-
-                </div>
-
-                <div class="flex letras portada__img-diplomado"> 
-                    <img src="img/Sin título-1.svg">
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="presentacion-diplomado">
-            <div class="letras presentacion-diplomado__titulo">
-                Mundo laboral
-            </div>
-
-            <div class="presentacion-diplomado__texto-presentacion">
-                Debido a la gran diversidad y volúmen de información manejada por las empresas, se solicita de personal capacitado en: 
-            </div>
-
-            <div class="jo">
-                <div class="presentacion-diplomado__aptitudes" id="presentacion-diplomado__texto-aptitud-optimizar"></div>
-                <img class="presentacion-diplomado__icono-aptitud" src="img/disenio.svg">
-                <div class="presentacion-diplomado__texto-aptitud" id="presentacion-diplomado__texto-aptitud">
-                    Diseñar y optimizar <br>
-                    bases de datos
-                </div>
-            </div>
-            
-            <div class="jo">
-                <div class="presentacion-diplomado__aptitudes" id="presentacion-diplomado__texto-aptitud-configurar"></div>
-                <img class="presentacion-diplomado__icono-aptitud" src="img/configuracion.svg">
-                <div class="presentacion-diplomado__texto-aptitud">
-                    crear y configurar <br>
-                    bases de datos
-                </div>
-            </div>
-
-            <div class="jo">
-                <div class="presentacion-diplomado__aptitudes" id="presentacion-diplomado__texto-aptitud-big-data"></div>
-                <img class="presentacion-diplomado__icono-aptitud" src="img/data.svg">
-                <div class="presentacion-diplomado__texto-aptitud">
-                    Conocimientos de <br>
-                    Big data
-                </div>
-            </div>
-               
-        </section>
-
-        <section class="tres">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem necessitatibus culpa rem, nam unde eum ullam saepe nulla magni eos blanditiis corporis quasi illo dignissimos consequuntur expedita impedit perferendis ratione.
-        </section>
+        </div>
     </div>
+
+    <div class="flex menu">
+            <a href="index.html" class="menu__item">Inicio</a>
+            <a href="html/temario.html" class="menu__item">Temario</a>
+            <a href="html/profesores.html" class="menu__item">Profesores<a>
+            <a href="html/informacion.html" class="menu__item">Informacion<a>
+            <a href="html/inscripcion.html" class="menu__item">Inscripcion<a>
+            <a href="html/contacto.html" class="menu__item">Contacto</a>
+    </div>
+
+    <div class="flex portada-diplomado">
+        <div class="flex letras portada-diplomado__titulo">
+            DIPLOMADO
+            <span class="portada-diplomado__titulo-diplomado">ADMINISTRACION, CLUESTERIZACIÓN Y <br>ANALITICA DE BASES DE DATOS</span>
+        </div>
+
+        <div class="flex portada-diplomado__icono">
+            <img class="portada-diplomado__vector" src="img/Sin titulo-1.svg">
+        </div>
+    </div>
+
+    
+
+    <div class="presentacion">
+
+        <div class="flex presentacion__tomar-curso">
+                <div>
+                    <img data-aos="flip-down" data-aos-duration="700" data-aos-anchor-placement="top-center" class="presentacion__conexion" src="img/undraw_server_down_s4lk.svg">
+                </div>
+                <span>
+                    
+                    <h2>¿Porque tomar este diplomado?</h2>
+                    <p>
+                        Los datos representan a uno de los activos más importantes dentro de las  empresas u organizaciones y ésta se encuentra en su mayoría administrada por sistemas de bases de datos. Estos sistemas hacen uso de la información contenida en las bases de datos para apoyar el proceso de toma de decisiones o para lograr ventajas competitivas.  
+                    </p>
+
+                </span>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-center" class="flex der presentacion__tomar-curso">
+            <div>
+                <img class="presentacion__tomar" src="img/undraw_online_organizer_ofxm.svg">
+            </div>
+            <span>
+                <h2>¿Que obtendras de este diplomado?</h2>
+                Debido a la gran diversidad y volumen de información manejada por las empresas, la necesidad de personal calificado en labores de análisis de datos, administración y clusterización de bases de datos se ha extendido considerablemente. Es por tanto, de suma importancia que la Facultad de Ingeniería aporte a la industria y a sus alumnos un medio para la educación y actualización y especialización. 
+
+            </span>
+
+        </div>
+
+        <div data-aos="fade-down-right" data-aos-duration="700" data-aos-anchor-placement="top-center" class="flex presentacion__tomar-curso">
+            <div>
+                <img class="presentacion__conexion" src="img/undraw_server_down_s4lk.svg">
+            </div>
+            <span>
+                
+                <h2>¿Porque tomar este diplomado?</h2>
+                <p>
+                    Los datos representan a uno de los activos más importantes dentro de las  empresas u organizaciones y ésta se encuentra en su mayoría administrada por sistemas de bases de datos. Estos sistemas hacen uso de la información contenida en las bases de datos para apoyar el proceso de toma de decisiones o para lograr ventajas competitivas.  
+                </p>
+
+            </span>
+
+        </div>
+
+        <div class="flex der presentacion__tomar-curso">
+            <div>
+                <img data-aos="fade-up" data-aos-duration="700" data-aos-anchor-placement="top-center" class="presentacion__tomar" src="img/undraw_online_organizer_ofxm.svg">
+            </div>
+            <span>
+                <h2>¿Que obtendras de este diplomado?</h2>
+                Debido a la gran diversidad y volumen de información manejada por las empresas, la necesidad de personal calificado en labores de análisis de datos, administración y clusterización de bases de datos se ha extendido considerablemente. Es por tanto, de suma importancia que la Facultad de Ingeniería aporte a la industria y a sus alumnos un medio para la educación y actualización y especialización. 
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="flex presentacion__tomar-curso">
+        <div>
+            <img data-aos="fade-down-right" data-aos-duration="700" data-aos-anchor-placement="top-center" class="presentacion__conexion" src="img/undraw_server_down_s4lk.svg">
+        </div>
+        <span>
+            
+            <h2>¿Porque tomar este diplomado?</h2>
+            <p>
+                Los datos representan a uno de los activos más importantes dentro de las  empresas u organizaciones y ésta se encuentra en su mayoría administrada por sistemas de bases de datos. Estos sistemas hacen uso de la información contenida en las bases de datos para apoyar el proceso de toma de decisiones o para lograr ventajas competitivas.  
+            </p>
+
+        </span>
+
+    </div>
+
+    <div class="flex der presentacion__tomar-curso">
+        <div>
+            <img data-aos="fade-down-left" data-aos-duration="700" data-aos-anchor-placement="top-center" class="presentacion__tomar" src="img/undraw_online_organizer_ofxm.svg">
+        </div>
+        <span>
+            <h2>¿Que obtendras de este diplomado?</h2>
+            Debido a la gran diversidad y volumen de información manejada por las empresas, la necesidad de personal calificado en labores de análisis de datos, administración y clusterización de bases de datos se ha extendido considerablemente. Es por tanto, de suma importancia que la Facultad de Ingeniería aporte a la industria y a sus alumnos un medio para la educación y actualización y especialización. 
+
+        </span>
+
+    </div>
+
+    <div class="flex info-diplomado">
+        <img class="info-diplomado__img" src="img/yei.svg">
+    </div>
+
+    <div class="flex letras footer-ingenieria">
+        <div class="flex footer-ingeneieria__fac">
+            Facultad de 
+            <span>Ingeniería</span>
+        </div>
+        <div class="footer-ingeneieria__contacto">
+                Universidad Nacional Autónoma de México
+                Facultad de Ingeniería, Av. Universidad 3000, Ciudad Universitaria, Coyoacán, Cd. Mx., CP 04510 
+                <p>
+                    Teléfono: 56 22 08 66 <br>
+                    Fax: 56 16 28 90 <br>
+                    eMail: fainge@unam.mx <br>
+                </p>
+
+        </div>
+        <div class="flex footer-ingeneieria__redes-sociales">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+
+        </div>
+    </div>
+
+    <footer class="letras footer">
+            Todos los derechos reservados © 1999 - 2019 / Facultad de Ingeniería/UNAM/
+            Esta es la página electrónica institucional de la Facultad de Ingeniería de la UNAM. Puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. Contiene enlaces con diversos portales de entidades y organizaciones académicas, estudiantiles y profesionales, así como con páginas personales de profesores e investigadores cuyos contenidos son de la responsabilidad exclusiva de sus titulares.
+
+            <p>Última actualización 24/05/2019 Versión 1.0 </p>
+    </footer>
 </body>
-<script src="js/onepagescroll.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/c6959c10e6.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/84b5c0c7e6.js" crossorigin="anonymous"></script>
+<script src="js/aos.js"></script>
 <script src="js/diplomado.js"></script>
 </html>
