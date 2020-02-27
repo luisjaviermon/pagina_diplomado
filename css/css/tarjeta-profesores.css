@@ -1,6 +1,7 @@
 .profesores{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 4% 0;
 }
 
 .tarjeta-profesor h1 {
