@@ -1,96 +1,157 @@
-.contacto{
-    margin-top: 100px;
-    padding: 20px;
-}
-.anexos-form{
-    width: 100%;
-    height: auto;
-}
-
-.box{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-}
-.column
-  {
-      width:25%;
-      float:left;
-      padding:100px 10px;
-  }
-
-  .row:after{
-      content:"";
-      display:table;
-      clear:both;
-  }
-
- 
-
-  @media screen and (max-width:600px)
-  {
-      .column
-      {
-          width:100%;
-          display:block;
-          margin-bottom: 20px;
-      }
-  }
-
-  .card
-  {
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      max-width:300px;
-      margin:auto;
-      background-color:white;
-      text-align:center;
-      border-radius:40px;
-      padding-bottom:15px;
-  }
-
-  .title
-  {
-      color:gray;
-      font-size:18px;
-  }
-
-  button
-  {
-      border:none;
-      padding:8px;
-      display: inline-block;
-      color:white;
-      background-color:#41968a;
-      cursor:pointer;
-      width:70%;
-      border-radius:20px;
-      font-size:18px;
-      text-align:center;
-  }
-
-  a:hover,button:hover{
-    opacity: 0.6;
-}
-
-.collap{
-    border:none;
-    padding:8px;
-    display: inline-block;
-    color:white;
-    background-color:#41968a;
-    cursor:pointer;
-    width:20%;
-   
-    border-radius:20px;
-    font-size:18px;
-    text-align:center;
-}
-
 .flex{
     display: flex;
+ }
+  
+ .div__temario{
+    font-family: 'Montserrat';
+    padding: 3rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+ }
+  
+ .div__img--temario{
+    width: 30%;
+    margin-right: 5rem;
+ }
+  
+ .div__temario--info{
+    flex-direction: column;
+    width: 30%;
+    font-size: 1.2rem;
+ }
+  
+ .div__temario--h1{
+    color: #3f7198;
+ }
+  
+  
+ .table__container{
+    font-family: 'Montserrat';
+    color: #6c6b6b;
+    overflow-x: auto;
+    padding: 1% 5% 5% 5%;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+ }
+  
+  
+ .table__tdh--lineV{
+    height: 50px;
+    border-right: 2px ridge #00a7bd;
+ }
+  
+  
+ .table__tr--top{
+    border-bottom: 2px solid #00a7bd;
+ }
+  
+  
+ .table__tr--bottom{
+    border-bottom: 2px solid #00a7bd;
+ }
+  
+  
+ .table__thead--tittle{
+    text-align: center;
+    padding: 1em 2em;
+ }
+  
+ .table__tbody--tdMod{
+    padding: 1em 2em;
+ }
+ .table__tbody--tdNumShrs{
+    text-align: right;
+    padding: 1em 2em;
+ }
+  
+  
+ .table__tbody--tdPfA{
+    text-align: right;
+    padding: 1em 2em;
+ }
+  
+ .table__tfoot--tdTotsum{
+    text-align: right;
+    padding: 1em 2em;
+ }
+ /*Temario_F*/
+  
+  
+ /*INFO_I*/
+ .div__info--boxImgTxt{
+    padding: 7rem 2rem 5rem 15rem;
+    justify-content: center;
+    align-items: center;
+ }
+  
+ .div__info--image{
+    width: 30vw;
+    margin-right: 5rem;
+ }
+  
+ .div__info--span{
+    flex-direction: column;
+    width: 30%;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+ }
+  
+  
+ .div__map{
+    justify-content: center;
+    align-items: center;
+ }
+  
+ .f,.div__info--h1{
+    color: #3f7198;
+    font-family: 'Montserrat';
+   
+ }
+  
+ .div__info--iframe{
+    border: 0;
+    width: 300px;
+    height: 300px;
+ }
+ /***NEW****/
+ .section__container{
+    padding: 5rem 3rem;
+ }
+ .div__imgtxt--all{
+    padding: 7rem 2rem;
+    justify-content: center;
+    align-items: center;
+ }
+  
+ .div__iframe--all{
+    margin-top: 7rem;
+    margin-left: 7rem;;
+ }
+  
+ .all1{
+    justify-content: center;
+  
+ }
+ 
+.div___informacion--button{
+  margin-bottom: 10%;
+}
+button
+ {
+     border:none;
+     padding:8px;
+     display: inline-block;
+     color:white;
+     background-color:#41968a;
+     cursor:pointer;
+     width:70%;
+     border-radius:20px;
+     font-size:18px;
+     text-align:center;
+ }
+ 
+ a:hover,button:hover{
+   opacity: 0.6;
 }
 
-.cp{
-    font-size: 1.3rem;
-    color: #00749D;
-}

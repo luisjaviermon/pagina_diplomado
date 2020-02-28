@@ -269,6 +269,7 @@ i.fab{
 .costos img{
     width: 40%;
     margin-left: 5%;
+    margin-right: 7%;
 }
 
 .formas-pago{
@@ -292,6 +293,11 @@ i.fab{
 .info-inscripcion img{
     width: 40%;
     margin-right: 3%;
+    margin-left: 7%;
+}
+
+.info-inscripcion span{
+    width: 45%;
 }
 
 .contact-form{
@@ -371,6 +377,7 @@ i.fab{
 
 .cards-contacto{
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .formulario{
@@ -379,4 +386,17 @@ i.fab{
 
 .form-group{
     font-size: 1.4rem;
+}
+
+.ir-arriba {
+    display:none;
+    padding:20px;
+    background:#024959;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    z-index: 2000;
 }
