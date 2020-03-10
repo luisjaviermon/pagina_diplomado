@@ -15,27 +15,17 @@
 .header{
     grid-area: header;
     background: lightcoral;
-    padding: 2% 2%;
+    padding: 2%;
 }
 
-.header__menu{
+.header__letras-fi{
+    text-align: right;
+    flex-direction: column;
     justify-content: center;
-    background: lime;
 }
 
 .header__escudos{
-    width: 30%;
-}
-
-.header__escudos-FI{
-}
-
-.header__fac{
-    margin-left: auto;
-}
-
-.header__letras-FI{
-    width: 50%;
+    width: 30vw;
 }
 
 @media screen and (max-width: 576px){
@@ -43,40 +33,21 @@
         font-size: 16px;
     }
 
-    .header__menu{
-        width: 15%;
-        font-size: 2.2rem;
-        align-items: center;
-    }
-
-    .header__institucion{
-        width: 85%;
-    }
-
-    .header__letras-FI{
-        width: 50%;
-        text-align: right;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 0.8rem;
-    }
-
-    .header__division{
-        font-size: 0.55rem;
-    }
-
-    .header__escudos-FI{
-        width: 50%;
-        flex-direction: row-reverse;
-    }
-
     .header__escudos{
        width: 15vw;
-       margin: 0 2%;
+    }
+
+    .unam{
+        order: 2;
     }
     
-    
+    .header__fi{
+        font-size: 1rem;
+    }
 
+    .header__die{
+        font-size: 0.7rem;
+    }
 }
 
 /* tener un bloque para cada elemento y con un order aplicar un cambio de posicion */
